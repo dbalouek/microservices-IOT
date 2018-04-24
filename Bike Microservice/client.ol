@@ -9,8 +9,8 @@ outputPort SubscribeService {
 
 main
 {
-    bikeId = 1;
-    clientId = 1;
+    bikeId = 5;
+    clientId = 5;
     Subscribe@SubscribeService( bikeId )( clientId );
     println@Console( bikeId )();
     println@Console(clientId)()
